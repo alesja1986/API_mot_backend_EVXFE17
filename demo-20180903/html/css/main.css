@@ -1,0 +1,18 @@
+#output {
+  display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
+  }
+  .container{
+    max-width:1000px;
+  }
+  h2{
+    width:100%;
+    text-align: center;
+  }
+  .card-body{
+    width: 295px;
+    margin: 0.5em;
+  }
+  
